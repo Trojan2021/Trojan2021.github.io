@@ -1,429 +1,430 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sawyer Ramsey</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sawyer Ramsey</title>
-
-  <!--
+    <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/my-avatar.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./assets/images/my-avatar.ico"
+      type="image/x-icon"
+    />
 
-  <!--
+    <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <!--
+    <!--
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
-  <!--
+  <body>
+    <!--
     - #MAIN
   -->
 
-  <main>
-
-    <!--
+    <main>
+      <!--
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Sawyer Ramsey"
+              width="80"
+            />
+          </figure>
 
-      <div class="sidebar-info">
+          <div class="info-content">
+            <h1 class="name" title="Sawyer Ramsey">Sawyer Ramsey</h1>
 
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Sawyer Ramsey" width="80">
-        </figure>
+            <p class="title">Computer Science Student</p>
+          </div>
 
-        <div class="info-content">
-          <h1 class="name" title="Sawyer Ramsey">Sawyer Ramsey</h1>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
 
-          <p class="title">Computer Science Student</p>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
 
-      </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
 
-      <div class="sidebar-info_more">
+                <a href="mailto:sawyereramsey@gmail.com" class="contact-link"
+                  >sawyereramsey@gmail.com</a
+                >
+              </div>
+            </li>
 
-        <div class="separator"></div>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
 
-        <ul class="contacts-list">
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
 
-          <li class="contact-item">
+                <a href="tel:+13304132771" class="contact-link"
+                  >+1 (330) 413-2771</a
+                >
+              </div>
+            </li>
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
 
-              <a href="mailto:sawyereramsey@gmail.com" class="contact-link">sawyereramsey@gmail.com</a>
-            </div>
+                <address>Ohio, USA</address>
+              </div>
+            </li>
+          </ul>
 
-          </li>
+          <div class="separator"></div>
 
-          <li class="contact-item">
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://github.com/Trojan2021" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
 
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
+            <li class="social-item">
+              <a href="https://twitter.com/Sawyer_Ramsey" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
 
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/sawyer-ramsey/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
 
-              <a href="tel:+13304132771" class="contact-link">+1 (330) 413-2771</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Ohio, USA</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://github.com/Trojan2021" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://twitter.com/Sawyer_Ramsey" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/sawyer-ramsey/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
+      <!--
       - #main-content
     -->
 
-    <div class="main-content">
-
-      <!--
+      <div class="main-content">
+        <!--
         - #NAVBAR
       -->
 
-      <nav class="navbar">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
 
-        <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+          </ul>
+        </nav>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
+        <!--
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
 
-        <header>
-          <h1 class="h2 article-title">WEBSITE IS A WIP</h1>
           <section class="about-text">
-            Please excuse any none working links on the website or outdated information. I am in the process of
-            rewriting some of the content and adding some more links to some of my work.
+            <p>
+              Currently, I am a student attending The Ohio State University
+              majoring in computer science and engineering, working toward a
+              specialization in artificial intelligence and machine learning. My
+              passion is technology and how it can be applied to everyday life.
+            </p>
+
+            <p>
+              Starting a project with friends and seeing how far we can progress
+              under a deadline is a challenge I enjoy. I recently had the
+              opportunity to do this at a university held hackathon (Hack OHI/O
+              2023). Here we created a device that would allow a person to
+              cheaply check the quality of water. Our goal was to allow more
+              people to have access to check the water that they were drinking.
+            </p>
+
+            <p>
+              This is not my first time doing competitions like this. My team
+              and I have comepeted in past ones where my team created a system
+              that reduces energy usage of a household for people with older
+              HVAC systems that do not have individual room control. We have
+              also designed a smart door that allows for contactless entrance to
+              assist people during pandemics like Covid-19 or people with
+              physical impairments.
+            </p>
           </section>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
 
-        <section class="about-text">
-          <p>
-            Currently, I am a student attending The Ohio State University majoring in computer science and engineering,
-            working toward a specialization in artificial intelligence and machine learning. My passion is
-            technology and how it can be applied to everyday life.
-          </p>
-
-          <p>
-            Starting a project with friends and seeing how far we can progress
-            under a deadline is a challenge I enjoy. I recently had the opportunity to do this at a university held
-            hackathon (Hack OHI/O
-            2021). Here we started on a smart door project. Since then, we have gone on to participate in a makeathon
-            held by
-            OSU (Make OHI/O 2022). The culmination of these two lead my team to be awarded runner-up at a showcase
-            event (Show OHI/O 2022), recognizing us as being one of the best new projects on campus.
-          </p>
-        </section>
-
-
-        <!--
+          <!--
           - service
         -->
 
-        <section class="service">
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
 
-          <ul class="service-list">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Software design</h4>
 
-            <li class="service-item">
+                  <p class="service-item-text">
+                    Learning to create the most modern and high-quality designs
+                    made to solve practical problems.
+                  </p>
+                </div>
+              </li>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Software design</h4>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
 
-                <p class="service-item-text">
-                  Learning to create the most modern and high-quality designs made to solve practical problems.
-                </p>
-              </div>
+                  <p class="service-item-text">
+                    Learning to create websites to host projects and cultivate
+                    interest.
+                  </p>
+                </div>
+              </li>
 
-            </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
 
-            <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile apps</h4>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
+                  <p class="service-item-text">
+                    Learning to create apps for Android and iOS.
+                  </p>
+                </div>
+              </li>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-photo.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
 
-                <p class="service-item-text">
-                  Learning to create websites to host projects and cultivate interest.
-                </p>
-              </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Computer Vision</h4>
 
-            </li>
+                  <p class="service-item-text">
+                    Learning computer vision methods and how I can apply it to
+                    current and future projects.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
 
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
-
-                <p class="service-item-text">
-                  Learning to create apps for Android and iOS.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Computer Vision</h4>
-
-                <p class="service-item-text">
-                  Learning computer vision methods and how I can apply it to current and future projects.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #RESUME
       -->
 
-      <article class="resume" data-page="resume">
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Education</h3>
             </div>
 
-            <h3 class="h3">Education</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  The Ohio State University
+                </h4>
 
-          <ol class="timeline-list">
+                <span>2021 — Present</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">
+                  I am currently attending OSU, majoring in computer science and
+                  engineering with a specialization in artificial intelligence
+                  and machine learning. I have taken two semesters of general
+                  engineering courses and am taking many computer science
+                  courses. During the time that I have spent here, I have
+                  competed in design competitions that have exhibited my
+                  projects.
+                </p>
+              </li>
 
-              <h4 class="h4 timeline-item-title">The Ohio State University</h4>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Kent State University - Tuscarawas
+                </h4>
 
-              <span>2021 — Present</span>
+                <span>2019 — 2021</span>
 
-              <p class="timeline-text">
-                I am currently attending OSU, majoring in computer science and engineering with a specialization in
-                artificial intelligence and machine learning. I have taken two semesters of general engineering courses
-                and am taking many computer science courses. During the time that I have spent here, I have competed in
-                design competitions that have exhibited my projects.
-              </p>
+                <p class="timeline-text">
+                  During my junior and senior year of high school, I attended
+                  Kent State University to further my education. Here, I took
+                  many math and science courses along with communications and
+                  Microsoft Office courses to learn the tools that I will be
+                  using in the workforce.
+                </p>
+              </li>
 
-            </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Tuscarawas Valley High School
+                </h4>
 
-            <li class="timeline-item">
+                <span>2017 — 2021</span>
 
-              <h4 class="h4 timeline-item-title">Kent State University - Tuscarawas</h4>
+                <p class="timeline-text">
+                  During high school, I took four years of engineering courses
+                  through Project Lead The Way. These courses consisted of
+                  learning engineering design, the disciplines of engineering,
+                  digital electronics, and computer integrated manufacturing.
+                  Throughout my years here, I participated in many competitions
+                  that would showcase my projects to the public. I graduated
+                  Summa Cum Laude and recieved an honors diploma.
+                </p>
+              </li>
+            </ol>
+          </section>
 
-              <span>2019 — 2021</span>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-              <p class="timeline-text">
-                During my junior and senior year of high school, I attended Kent State University to further my
-                education. Here, I took many math and science courses along with communications and Microsoft Office
-                courses to learn the tools that I will be using in the workforce.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Tuscarawas Valley High School</h4>
-
-              <span>2017 — 2021</span>
-
-              <p class="timeline-text">
-                During high school, I took four years of engineering courses through Project Lead The Way. These courses
-                consisted of learning engineering design, the disciplines of engineering, digital electronics, and
-                computer integrated manufacturing. Throughout my years here, I participated in many competitions that
-                would showcase my projects to the public. I graduated Summa Cum Laude and recieved an honors diploma.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Experience</h3>
             </div>
 
-            <h3 class="h3">Experience</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Engineering Teaching Assistant - The Ohio State Univeristy
+                </h4>
 
-          <ol class="timeline-list">
+                <span>2022 — Present</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">
+                  Responsible for in-class student assistance. This includes
+                  answering student questions and providing learning content
+                  through examples or presentations. Prepare content and
+                  materials for events and competitions. Grade all course work
+                  and give feedback to all students.
+                </p>
+              </li>
 
-              <h4 class="h4 timeline-item-title">Engineering Teaching Assistant - The Ohio State Univeristy</h4>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  IT Intern - Allied Machine & Engineering
+                </h4>
 
-              <span>2022 — Present</span>
+                <span>2022</span>
 
-              <p class="timeline-text">
-                Responsible for in-class student assistance. This includes answering student questions and providing
-                learning content through examples or presentations. Prepare content and materials for events and
-                competitions. Grade all course work and give feedback to all students.
-              </p>
+                <p class="timeline-text">
+                  Managed all company computers by providing routine and
+                  preventative maintenance to ensure computer systems across the
+                  company would continue working proficiently. Designed and
+                  created software to do this autonomously.
+                </p>
+              </li>
 
-            </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  IT Assistant - Tuscarawas Valley Local Schools
+                </h4>
 
-            <li class="timeline-item">
+                <span>2017 — 2021</span>
 
-              <h4 class="h4 timeline-item-title">IT Intern - Allied Machine & Engineering</h4>
+                <p class="timeline-text">
+                  Provided maintenance for all computers and replaced or
+                  repaired any systems that were down or damaged. Expected to
+                  deploy new computers and systems to provide support to the
+                  district.
+                </p>
+              </li>
+            </ol>
+          </section>
 
-              <span>2022</span>
+          <section>
+            <h3 class="h3 skills-title">My Skills</h3>
 
-              <p class="timeline-text">
-                Managed all company computers by providing routine and preventative maintenance to ensure
-                computer systems across the company would continue working proficiently. Designed and
-                created software to do this autonomously.
-              </p>
+            <ul></ul>
+          </section>
 
-            </li>
+          <!-- <section class="skill">
 
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">IT Assistant - Tuscarawas Valley Local Schools</h4>
-
-              <span>2017 — 2021</span>
-
-              <p class="timeline-text">
-                Provided maintenance for all computers and replaced or repaired any systems that were down or
-                damaged. Expected to deploy new computers and systems to provide support to the district.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My Confidence In My skills</h3>
+          <h3 class="h3 skills-title">My Skills</h3>
 
           <ul class="skills-list content-card">
 
@@ -481,144 +482,136 @@
 
           </ul>
 
-        </section>
+        </section> -->
+        </article>
 
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
 
-        <section class="projects">
+              <li class="filter-item">
+                <button data-filter-btn>Computer Vision</button>
+              </li>
 
-          <ul class="filter-list">
+              <li class="filter-item">
+                <button data-filter-btn>Competition</button>
+              </li>
 
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Computer Vision</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Competition</button>
-            </li>
-
-            <!-- <li class="filter-item">
+              <!-- <li class="filter-item">
               <button data-filter-btn>Web development</button>
             </li> -->
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Computer Vision</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Competition</button>
-              </li>
-
-              <!-- <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li> -->
-
             </ul>
 
-          </div>
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
 
-          <ul class="project-list">
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
 
-            <li class="project-item  active" data-filter-item data-category="computer vision">
-              <a href="https://github.com/Trojan2021/Smart-Door">
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                <li class="select-item">
+                  <button data-select-item>Computer Vision</button>
+                </li>
 
-                  <img src="./assets/images/Smart Door.png" alt="Smart Door" loading="lazy">
-                </figure>
+                <li class="select-item">
+                  <button data-select-item>Competition</button>
+                </li>
 
-                <h3 class="project-title">Smart Door</h3>
+                <!-- <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li> -->
+              </ul>
+            </div>
 
-                <p class="project-category">Computer Vision</p>
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="computer vision"
+              >
+                <a href="https://github.com/Trojan2021/Smart-Door">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-              </a>
-            </li>
+                    <img
+                      src="./assets/images/Smart Door.png"
+                      alt="Smart Door"
+                      loading="lazy"
+                    />
+                  </figure>
 
-            <li class="project-item  active" data-filter-item data-category="competition">
-              <a href="https://github.com/Trojan2021/Smart-Door">
+                  <h3 class="project-title">Smart Door</h3>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                  <p class="project-category">Computer Vision</p>
+                </a>
+              </li>
 
-                  <img src="./assets/images/hack-logo.png" alt="Hack OHI/O 2021" loading="lazy">
-                </figure>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="competition"
+              >
+                <a href="https://github.com/Trojan2021/Smart-Door">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <h3 class="project-title">Hack OHI/O 2021</h3>
+                    <img
+                      src="./assets/images/hack-logo.png"
+                      alt="Hack OHI/O 2021"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <p class="project-category">Competition</p>
+                  <h3 class="project-title">Hack OHI/O 2021</h3>
 
-              </a>
-            </li>
+                  <p class="project-category">Competition</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
 
-          </ul>
-
-        </section>
-
-      </article>
-
-    </div>
-
-  </main>
-
-
-
-
-
-
-  <!--
+    <!--
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
-  <!--
+    <!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
