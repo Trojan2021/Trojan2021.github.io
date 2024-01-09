@@ -228,6 +228,11 @@ article.active {
   text-transform: capitalize;
 }
 
+.skillitem {
+  color: var(--light-gray);
+  font-weight: var(--fw-10);
+}
+
 .h2 { font-size: var(--fs-1); }
 
 .h3 { font-size: var(--fs-2); }
